@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlanTFT – Smarter Decisions for Every Roll</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 2rem;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #334155;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background-color: #38bdf8;
+      color: #0f172a;
+      padding: 1rem 2rem;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #0ea5e9;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 5rem;
+      justify-content: center;
+    }
+    .feature {
+      background-color: #1e293b;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .feature h3 {
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+    .feature p {
+      color: #94a3b8;
+    }
+    footer {
+      text-align: center;
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid #334155;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">PlanTFT</div>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Download</a>
+      <a href="#">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Smarter Decisions, Every Round</h1>
+    <p>Optimize your TFT strategy with real-time expected value analysis, gold planning, and smart roll decisions.</p>
+    <button class="cta-button">Try PlanTFT</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Expected Value Calculator</h3>
+      <p>Make data-driven decisions on rolling, leveling, and unit purchases using live pool status.</p>
+    </div>
+    <div class="feature">
+      <h3>Smart Roll Guidance</h3>
+      <p>Know exactly how much gold it takes to 2-star or 3-star your key carries.</p>
+    </div>
+    <div class="feature">
+      <h3>Board-Centric Planning</h3>
+      <p>Visualize your unit bench, shop odds, and reroll value—all in one interface.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2024 PlanTFT. Built for the tacticians.
+  </footer>
+</body>
+</html>
